@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter",sans-serif;
+
+}
+header{
+    padding: 24px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 116px;
+}
+.header-list{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+nav>ul{
+    display: flex;
+    gap: 30px;
+
+    li{
+        list-style: none;
+
+        a{
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: #002959;
+            transition: all 0.3s ease-in-out;
+            
+        }
+    }
+}
+a:hover{
+                color: blue;
+            }
+.btns{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+}
+.login{
+        border: none;
+        gap: 6px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 18px 30px;
+        background-color: #EC6C21;
+        color: #FFF;
+        transition: all 0.3s ease-in-out;
+
+        &:hover{
+            background-color:#ab3f00;
+        }
+    }
+h1{
+    
+    background-image: url(../images/doodle-2.svg);
+    background-repeat: no-repeat;
+    background-position: 106% 20%;
+    margin: 0 auto;
+    width: 982px;
+    font-weight: 600;
+    font-size: 61px;
+    line-height: 70px;
+    color: #002959;
+    text-align: center;
+    padding-bottom: 40px;
+}
+p{
+    background-image: url(../images/doodle-1.svg);
+    background-repeat: no-repeat;
+    background-position: -10% 43%;
+    padding: 0 100px;
+    margin: 0 auto;
+    width: 800px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    text-align: center;
+    color: #002959;
+    padding-bottom: 50px;
+}
+.download{
+    margin: 0 auto;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 18px 30px;
+    background-color: #EC6C21;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &:hover{
+        background-color: #ab3f00;
+    }
+}
+.sally-image>img{
+    width: 100%;
+    background-image: url(../images/backround-image.svg);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
